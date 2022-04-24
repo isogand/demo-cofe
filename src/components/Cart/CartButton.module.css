@@ -1,0 +1,136 @@
+.wrapper{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+  height: 46px;
+  margin: 0 0 0 16px;
+  padding: 12px;
+  width: 46px;
+}
+
+
+
+.button {
+  background-color: #8f23f5;
+
+}
+
+.button:hover,
+.button:active {
+  color: white;
+}
+
+.basket-top-menu{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  cursor: default;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /*display: none;*/
+
+}
+.basket-top-men{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+  /*display: none;*/
+}
+.pagecontainer{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  height: 100%;
+  direction: rtl;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+
+}
+.pagecontainer-empty-container{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.sweet-empty-product-msg{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 10px;
+  height: calc(100vh - 250px);
+  text-align: center;
+  width: 250px;
+  border-radius: 20px;
+
+background-color: #fcfcfc;
+}
+.sweet-empty-product-img{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  margin: 97px auto 0;
+  height: 200px;
+  object-fit: contain;
+  width: 200px;
+}
+

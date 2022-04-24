@@ -1,0 +1,982 @@
+header{
+  height: 12rem;
+  display: flex;
+  flexWrap: "nowrap";
+  justifyContent: "flex-start";
+  backgroundColor: '#F0F0F0';
+  width: 100vw;
+  marginRight: -20px;
+  marginTop: -20px;
+  padding: 6px;
+}
+Navbar{
+  flexWrap: "nowrap";
+  whiteSpace: "nowrap";
+  flexDirection: 'row';
+  marginTop: 50px;
+}
+.active-button{
+  line-height: 1.5;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #fa5456;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+  color: #fff;
+  font-weight: 700;
+  height: 46px;
+  margin-left : 2.8vw;
+  padding: 12px 16px;
+  width: 130px;
+}
+
+.separator{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  border: 2px solid #fa5456;
+  height: 46px;
+  width: 0;
+  margin-top: 5px;
+  margin-right: 1.1vw;
+}
+
+.header {
+  width: 100%;
+  height: 6rem;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8f23f5;
+}
+
+.header h1 {
+  color: white;
+}
+.header h2 {
+  color: white;
+  margin-left:25px;
+
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pan {
+
+  border-radius: 0.5rem;
+  margin-right: 80%;
+
+}
+.pas{
+  background-color: #DAB0FD;
+  color: rgb(2, 2, 2);
+  width: 4rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  margin-top: -10rem;
+
+}
+
+.small-header-icon{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  height: 7vw;
+  width: 7vw;
+  object-fit: contain;
+}
+
+.small-header-title{
+  margin-top: 2px;
+  line-height: 1.5;
+  direction: rtl;
+  box-sizing: border-box;
+  padding: 0;
+  flex-basis: 100%;
+  justify-content: center;
+  text-align: center;
+  color: #505050;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.small-header-subtitle{
+  line-height: 1.5;
+  direction: rtl;
+  box-sizing: border-box;
+  padding: 0;
+  flex-basis: 100%;
+  justify-content: center;
+  text-align: center;
+  color: #707070;
+  font-size: 12px;
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+.small-green-bullet{
+  line-height: 1.5;
+  direction: rtl;
+  text-align: center;
+  color: #707070;
+  font-size: 12px;
+  font-weight: 900;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #00e390;
+  box-shadow: 0 0 6px 0 rgba(0,227,144,.6);
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin-top : 5px;
+  vertical-align: middle;
+  width: 10px;
+}
+
+.small-header-logo{
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  margin: 0;
+  box-sizing: border-box;
+  border-style: none;
+  vertical-align: middle;
+  background: #fff;
+  border-radius: 50%;
+  height: 60px;
+  padding: 5px;
+  width: 60px;
+}
+.sweet-search-container search-box-container justify-content-center {
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  justify-content: center !important;
+  margin: 12px 0px 16px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 12px;
+  text-align: center;
+  padding: 0px 24px;
+
+}
+.sweet-search-box {
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 100%;
+
+}
+.inputMobile {
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 10px;
+  overflow: visible;
+  box-shadow: rgb(177, 177, 177) 2px 5px 16px 0px;
+  color: rgb(0, 0, 0);
+  cursor: unset;
+  direction: rtl;
+  font-size: 3.1vw;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-width: initial;
+  border-style: initial;
+  border-color: transparent;
+  border-image: initial;
+  border-radius: 21px;
+  padding: 2.5vw 10.5%;
+}
+.sweet-search-icon-btn {
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out 0s;
+  outline: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  left: 6.5%;
+  position: absolute;
+}
+.sweet-grouped-product-list-page{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.sweet-grouped-product-list sweet-content{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+}
+.FixedHeader{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.mother-group-selectors-container{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  background: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+.slider-box{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  top: 136px;
+  z-index: 1000;
+
+}
+.sweet-slider-scrollbar-hidden{
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+
+  direction: rtl;
+  display: flex;
+  overflow-x: auto;
+  padding: 16px 24px;
+  text-align: center;
+  top: 18vw;
+  z-index: 110;
+  width: 100%;
+
+}
+.mother-group-selector-item active{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+.mother-group-selector-item inactive{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+.sweet-mothergroup-card{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  border-radius: 10px;
+  direction: rtl;
+  display: flex;
+  height: 30px;
+  justify-content: flex-start;
+  margin-right: 10px;
+  padding-right: 5px;
+  width: 30vw;
+  background: linear-gradient(to bottom right,#ee2528,#fa5456,#fa5456,#e40003);
+  color: #fff;
+}
+.image{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  cursor: pointer;
+  direction: rtl;
+  color: #fff;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  max-height: 60%;
+  filter: brightness(100);
+}
+.sweet-mothergroup-title{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  cursor: pointer;
+  direction: rtl;
+  color: #fff;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 3px;
+}
+
+.group-selector-item inactive{
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: none;
+  color: inherit;
+  text-decoration: none;
+}
+.sweet-slider-card{
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  align-content: center;
+  background-color: #fff;
+  border-radius: 18px;
+  display: flex;
+  float: right;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 20px 14px;
+}
+.imagefood{
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+}
+.sweet-slider-title{
+  direction: rtl;
+  cursor: pointer;
+  color: inherit;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 5%;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+}
+.sweet-product-card-container-content{
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-top: 2px solid #dadada;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  direction: rtl;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+  position: relative;
+}
+.gpiranian-food{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.group-top-place{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  top: -152px;
+}
+.sweet-group-title{
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #505050;
+  direction: rtl;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 12px;
+  padding-right: 5%;
+  text-align: right;
+  width: 100%;
+}
+.sweet-title-product-bullet{
+  color: #505050;
+  direction: rtl;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: right;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  background: #fa5456;
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin: 18px 6px;
+  vertical-align: middle;
+  width: 10px;
+}
+.sweet-products-container-card{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.sweet-product-card{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 3px 3px 6px 0 rgba(80,80,80,.1);
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  margin: 70px auto 10px;
+  min-height: 3%;
+  padding: 4px 0 0;
+  position: relative;
+  width: 82%;
+}
+.sweet-product-card-head{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4px;
+  width: 100%;
+}
+.sweet-product-favorite{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  margin: 24px;
+  width: 7vw;
+}
+.sweer-discount-product{
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  background-color: #fa5456;
+  border-bottom-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: #fff;
+  font-size: 2.6vw;
+  font-weight: 700;
+  height: 8vw;
+  margin: 0 0 20px 70px;
+  padding: 11px 6px;
+  width: 8vw;
+}
+.sweet-product-title{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dcdcdc;
+  color: #505050;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 0 5px 5px;
+  text-align: center;
+}
+.sweet-productKinds-section{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 10px;
+  width: 85%;
+}
+.sweet-productkind-notselected{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.sweet-product-price-selected{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.sweet-productkind-description{
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #8f8f8f;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-align: right;
+}
+.sweet-productkind-content-container{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.sweet-number-person{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #505050;
+  font-size: 10px;
+  font-weight: 700;
+}
+.sweet-productkind-price{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: baseline;
+  color: #707070;
+  display: flex;
+  font-size: 10px;
+  font-weight: 700;
+}
+.price{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 3px;
+  color: #505050;
+  font-size: 10px;
+  font-weight: 700;
+}
+.sweet-productkind-details{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: right;
+  width: 33%;
+}
+.sweet-productkind-countbox{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  text-align: right;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  display: flex;
+}
+.sweet-product-countchange-btn-sweet-product-add-btn{
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  direction: rtl;
+  text-align: right;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: none;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+.imagefood2{
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  direction: rtl;
+  text-align: right;
+  cursor: pointer;
+  font-size: 18px;
+  color: inherit;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-style: none;
+  vertical-align: middle;
+  width: 23px;
+}
+.sweet-product-count{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  direction: rtl;
+  text-align: right;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  background-color: #f0f0f0;
+  border-radius: 100%;
+  color: #505050;
+  font-size: 10px;
+  font-weight: 700;
+  height: 23px;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 4px 10px;
+  width: 23px;
+}
+.sweet-product-countchange-btn-sweet-product-remove-btn{
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  direction: rtl;
+  text-align: right;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: none;
+  font-size: 18px;
+  color: inherit;
+  text-decoration: none;
+}
+.basket{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+.sweet-register-order-container{
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  cursor: pointer;
+  color: inherit;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-image: linear-gradient(180deg,hsla(0,0%,98%,0),#fff,#fff);
+  bottom: 0;
+  height: 15vh;
+  position: fixed;
+  width: 100%;
+}
+.sweet-register-order{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #fa5456;
+  border-radius: 23px;
+  bottom: 5vh;
+  box-shadow: 0 -27px 23px 2px rgba(248,249,250,.859);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  left: 2vw;
+  margin: 0 auto;
+  padding: 8px;
+  position: fixed;
+  right: 2vw;
+  text-align: center;
+  width: 83%;
+}
+.order{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.basketcountinbutton{
+   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background: #fff;
+  border-radius: 3px;
+  color: #fa5456;
+  font-weight: 700;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

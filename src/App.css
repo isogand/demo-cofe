@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Shabnam'; /*a name to be used later*/
+    src: url('./font/Shabnam/Shabnam.ttf'); /*URL to font*/
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Shabnam'; /*a name to be used later*/
+    src: url('./font/Shabnam/Shabnam-Light.ttf'); /*URL to font*/
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Shabnam'; /*a name to be used later*/
+    src: url('./font/Shabnam/Shabnam-Bold.ttf'); /*URL to font*/
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 576px) {
+    body {
+        /* padding : 20px */
+    }
+}
+
+body{
+    font-family: Shabnam, serif !important;
+}
+
+.header-title {
+    direction: rtl;
+    cursor: pointer;
+    color: #505050 !important;
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: .75;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 6px;
+}
+
+.header-item-text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 1.2vw;
+}
+
+.app {
+    background-color: #F0F0F0;
+}

@@ -1,0 +1,127 @@
+.item h3 {
+  margin: 1rem ;
+  font-size: 1.25rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+}
+
+.price {
+  border-radius: 30px;
+  padding: 0.15rem 1.5rem;
+  background-color: #dab0fd;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+.item p {
+  color: #3a3a3a;
+  margin: 0.5rem ;
+}
+
+.actions {
+  display: flex;
+  border-radius: 10px;
+  padding: 0.5rem;
+  justify-content: flex-end;
+  color: rgb(118, 25, 206);
+}
+.img {
+    width:10rem;
+    position: absolute;
+    left: -80px;
+    padding: 80px;
+    border-radius: 20px;
+}
+
+/* // ** // */
+
+.product-card-container {
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-top: 2px solid #dadada;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  direction: rtl;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+  position: relative;
+  top: 250px;
+}
+.gpiranian {
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x : auto;
+}
+/* // ** // */
+.div{
+  display: flex;
+  flex-direction: row;
+}
+.group-top-place{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  text-align: center;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  top: -152px;
+
+}
+.sweet-group-title {
+  line-height: 1.5;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #505050;
+  direction: rtl;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 12px;
+  padding-right: 5%;
+  text-align: right;
+  width: 100%;
+}
+.sweet-title-product-bullet{
+  line-height: 1.5;
+  color: #505050;
+  direction: rtl;
+  font-weight: 900;
+  text-align: right;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  padding: 0;
+  background: #fa5456;
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin: 18px 6px;
+  vertical-align: middle;
+  width: 10px;
+  font-size: 30px;
+}

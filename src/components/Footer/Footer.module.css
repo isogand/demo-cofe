@@ -1,0 +1,225 @@
+.footer {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  height: 206px;
+  object-fit: contain;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  /* background: url("/static/media/top-bg.6f58cc2d9db938edcbce.png"); */
+  border-radius: 0px;
+  padding: 40px 80px 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.about {
+  text-size-adjust: 100%;
+color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 116px;
+  margin-right: 20px;
+  width: 596px;
+}
+.part {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  font-weight: 300;
+  
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  text-align: justify;
+  width: 480px;
+  padding: 15px;
+  
+
+}
+div.c {
+  text-align: right;
+  margin-right: 20px;
+  display: flex;
+} 
+.description {
+  text-size-adjust: 100%;
+  line-height: 1.5;
+  text-align: left;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  font-weight: 700;
+  height: 116px;
+  width: 130px;
+  
+}
+.title {
+  text-size-adjust: 100%;
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  line-height: 1.5;
+  text-align: left;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  color: rgb(80, 80, 80);
+  font-size: 18px;
+  font-weight: 700;
+  height: 116px;
+  width: 130px;
+ 
+}
+.content {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  direction: rtl;
+  text-align: justify;
+  width: 480px;
+  padding: 15px;
+}
+.separator {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  height: 120px;
+  margin-right: 20px;
+  width: 0px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(250, 84, 86);
+  border-image: initial;
+}
+.contactus {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 116px;
+  margin-right: 20px;
+  width: 480px;
+}
+.box {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+.icon {
+  text-size-adjust: 100%;
+  color: rgb(228, 45, 17);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  height: 24px;
+  width: 24px;
+  border-radius: 5px;
+  margin: 0px 0px 0px 8px;
+  padding: 2px;
+}
+.info {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  direction: rtl;
+  text-align: right;
+}
+.enamad {
+  text-size-adjust: 100%;
+  color: rgb(33, 37, 41);
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 20px;
+}

@@ -1,0 +1,18 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(169, 42, 243);
+  padding: 1rem;
+  height: 15rem;
+  max-width: 40rem;
+}
+.card:hover {
+  margin: 1rem auto;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(169, 42, 243);
+  padding: 1rem;
+  height: 15rem;
+  max-width: 40rem;
+}

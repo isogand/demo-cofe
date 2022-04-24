@@ -1,0 +1,145 @@
+.cart {
+  max-width: 30rem;
+  background-color: #E7E7E7;
+  color: white;
+
+}
+.title {
+  align-items: center;
+  border-bottom: 1px solid #a3a3a3;
+  direction: rtl;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.dot {
+  background-color: #fa5456;
+  border-radius: 3px;
+  height: 10px;
+  margin-left: 6px;
+  width: 10px;
+}
+.text {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: justify;
+    text-align-last: right;
+
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sweet-total-price-basket-container{
+    color: #212529;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    direction: rtl;
+    font-family: Shabnam;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    bottom: 10px;
+    padding-top: 16px;
+    margin-right: 0;
+    position: relative;
+    width: auto;
+}
+.sweet-edit-basket-button{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    direction: rtl;
+    font-family: Shabnam;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #fa5456;
+    border-radius: 18px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+    color: #fa5456;
+    cursor: pointer;
+    font-weight: 700;
+    height: 46px;
+    margin: 24px 0 12px;
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+}
+.edit{
+    line-height: 1.5;
+    font-size: 13px;
+    direction: rtl;
+    color: #fa5456;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    font-family: Shabnam;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.sweet-register-order-basket{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    font-family: Shabnam;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fa5456;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    left: 2vw;
+    padding: 12px 24px;
+    right: 2vw;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.sweet-btn-sweet-register-order-basket-style{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    font-family: Shabnam;
+    box-sizing: border-box;
+    background-color: #fa5456;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    left: 2vw;
+    padding: 8px;
+    right: 2vw;
+    text-align: center;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: none;
+    font-weight: 700;
+    height: 43px;
+    margin: 0!important;
+}
+.finish{
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    direction: rtl;
+    font-family: Shabnam;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+

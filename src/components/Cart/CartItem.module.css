@@ -1,0 +1,233 @@
+.page-part-card{
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #E7E7E7;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 20px;
+  padding: 20px 20px 0px 30px;
+}
+.pagecontainer{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  height: 100%;
+  direction: rtl;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  width: 100%;
+}
+.sweet-basket-container{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  width: 100%;
+  background: none;
+}
+.sweet-basket-page-title{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 14px;
+  margin-top: 0;
+  text-align: right;
+}
+.title-box{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  text-align: right;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  border-bottom: 1px solid #a3a3a3;
+  direction: rtl;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.title-dot{
+  color: #212529;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: right;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #fa5456;
+  border-radius: 3px;
+  height: 10px;
+  margin-left: 6px;
+  width: 10px;
+}
+.title{
+  line-height: 1.5;
+  text-align: right;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 700;
+}
+.d-flex-justify-content-center-flex-column{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+}
+.sweet-readonly-basket-product-container{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.sweet-product-title-basket{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.subtitle{
+  line-height: 1.5;
+  text-align: left;
+  direction: rtl;
+  color: #505050;
+  font-weight: 700;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 10px;
+}
+.line-container{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  align-items: center;
+  flex: 1 1;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.line{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+  height: 0;
+  width: 100%;
+}
+.value {
+  line-height: 1.5;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #505050;
+  font-weight: 700;
+}
+.bottom-separator{
+  color: #212529;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  direction: rtl;
+  font-family: Shabnam;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}

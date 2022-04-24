@@ -1,0 +1,132 @@
+/* // *** // */
+.slider {
+    text-size-adjust: 100%;
+    color: rgb(33, 37, 41);
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    direction: rtl;
+    font-family: Shabnam;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    z-index: 1000;
+    justify-content: center;
+    position: absolute;
+    top: 47px;
+    width: 100%;
+
+  }
+  .scrollbar {
+    text-size-adjust: 100%;
+    color: rgb(33, 37, 41);
+    line-height: 1.5;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    font-family: Shabnam;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    direction: rtl;
+    overflow-x: auto;
+    text-align: center;
+    top: 18vw;
+    z-index: 110;
+    background: rgb(240, 240, 240);
+    padding: 16px 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+  }
+  .scrollbaritem:first-child{
+    margin-right: auto;
+  }
+  .scrollbaritem:last-child{
+    margin-left: auto;
+  }
+  .scrollbaritem {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 13px;
+    direction: rtl;
+    text-align: center;
+    font-family: Shabnam;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out 0s;
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+    margin-right: 7px;
+    width: 100px;
+  }
+  .scrollbarcard {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 13px;
+    direction: rtl;
+    text-align: center;
+    cursor: pointer;
+    color: inherit;
+    font-family: Shabnam;
+    margin: 0px;
+    box-sizing: border-box;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    float: right;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 18px;
+    padding: 20px 14px;
+  }
+.scrollbarcard:hover {
+  background-color: #F65355;
+}
+  .scrollImage {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 13px;
+    direction: rtl;
+    text-align: center;
+    cursor: pointer;
+    color: inherit;
+    font-family: Shabnam;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border-style: none;
+    vertical-align: middle;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+  }
+  .scrollItem {
+    text-size-adjust: 100%;
+    direction: rtl;
+    cursor: pointer;
+    color: inherit;
+    font-family: Shabnam;
+    box-sizing: border-box;
+    padding: 0px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    margin: 0px 5%;
+    overflow: hidden;
+  }
